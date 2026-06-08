@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Convoy | Pay your share</title>
+  <meta name="description" content="Claim your spot and pay your share of a Convoy group trip.">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/pay/pay.css">
+</head>
+<body class="pay-page">
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Convoy home">
+      <span class="brand-mark" aria-hidden="true">C</span>
+      <span>Convoy</span>
+    </a>
+  </header>
+
+  <main class="pay-shell" id="pay-root">
+    <section class="pay-card pay-loading" aria-live="polite">
+      <p class="eyebrow">Shared payment link</p>
+      <h1>Loading trip…</h1>
+      <p class="pay-muted">Fetching the latest group details.</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>Convoy</span>
+    <span>Group trips, booked together.</span>
+  </footer>
+
+  <script src="/pay/pay.js" type="module"></script>
+</body>
+</html>

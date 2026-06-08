@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "functions": {
+    "api/webhooks/stripe.js": {
+      "maxDuration": 10
+    }
+  },
+  "rewrites": [
+    { "source": "/pay/:slug", "destination": "/pay/index.html" },
+    { "source": "/api/(.*)", "destination": "/api/$1" }
+  ]
+}

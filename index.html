@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Convoy | Group trips without the group chat chaos</title>
+  <meta name="description" content="Convoy builds bookable group trips from one prompt, then gives every friend a shared payment link.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Convoy home">
+      <span class="brand-mark" aria-hidden="true">C</span>
+      <span>Convoy</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#how">How it works</a>
+      <a href="#why">Why Convoy</a>
+      <a href="#waitlist">Waitlist</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">AI group travel booking</p>
+        <h1 id="hero-title">Book the trip before the group chat kills it.</h1>
+        <p class="hero-subtitle">Convoy turns one messy group-trip idea into a fully bookable package: flights, stays, activities, votes, and a shared payment link everyone can use instantly.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#waitlist">
+            Join the launch list
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="button button-secondary" href="#demo">
+            See the flow
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 5l10 7-10 7V5Z"/></svg>
+          </a>
+        </div>
+        <div class="proof-row" aria-label="Convoy benefits">
+          <span>No app for friends</span>
+          <span>Split payments</span>
+          <span>Weekend trips first</span>
+        </div>
+      </div>
+      <figure class="hero-visual" id="demo">
+        <img src="assets/convoy-product.svg" alt="Convoy interface preview with an AI Barcelona group trip, package options, and shared payment progress.">
+      </figure>
+    </section>
+
+    <section class="problem-band" aria-label="Problem statement">
+      <p>Planning for eight people should not mean eight tabs, three polls, two flaky bank transfers, and one person quietly becoming the unpaid travel agent.</p>
+    </section>
+
+    <section class="steps" id="how" aria-labelledby="how-title">
+      <div class="section-heading">
+        <p class="eyebrow">How it works</p>
+        <h2 id="how-title">From idea to paid-up group in minutes.</h2>
+      </div>
+      <div class="step-grid">
+        <article>
+          <span class="step-number">01</span>
+          <h3>Describe the trip</h3>
+          <p>Tell Convoy the destination vibe, budget, dates, group size, and non-negotiables in normal language.</p>
+        </article>
+        <article>
+          <span class="step-number">02</span>
+          <h3>Get a bookable package</h3>
+          <p>Convoy combines flights, accommodation, events, and activities into options designed for the whole group.</p>
+        </article>
+        <article>
+          <span class="step-number">03</span>
+          <h3>Drop the payment link</h3>
+          <p>Friends vote, claim their spot, and pay their share without downloading an app or making the organiser chase anyone.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="split-section" id="why" aria-labelledby="why-title">
+      <div>
+        <p class="eyebrow">Built for the group</p>
+        <h2 id="why-title">The organiser is not the customer. The group is.</h2>
+        <p>Most travel platforms help one person find somewhere to stay. Convoy is designed around the social reality of young group travel: everyone has opinions, budgets are tight, and commitment only becomes real when people pay.</p>
+      </div>
+      <div class="feature-list">
+        <div class="feature-item">
+          <span aria-hidden="true"></span>
+          <div>
+            <h3>Consensus first</h3>
+            <p>Trip options are packaged for quick group decisions, not endless comparison shopping.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <span aria-hidden="true"></span>
+          <div>
+            <h3>Transparent pricing</h3>
+            <p>Show the per-person total upfront so no one discovers the real cost at checkout.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <span aria-hidden="true"></span>
+          <div>
+            <h3>Commitment built in</h3>
+            <p>The shared link moves the group from “I’m down” to deposits paid and seats confirmed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="metrics" aria-label="Launch focus">
+      <div>
+        <strong>18-35</strong>
+        <span>UK travellers first</span>
+      </div>
+      <div>
+        <strong>8 tabs to 1 link</strong>
+        <span>Flights, stay, events, payment</span>
+      </div>
+      <div>
+        <strong>Weekend breaks</strong>
+        <span>Focused launch category</span>
+      </div>
+    </section>
+
+    <section class="waitlist" id="waitlist" aria-labelledby="waitlist-title">
+      <div>
+        <p class="eyebrow">Early access</p>
+        <h2 id="waitlist-title">Bring your next group trip to Convoy.</h2>
+        <p>Join the first launch list for UK city breaks, birthday trips, post-exam escapes, and friend-group weekends that actually make it out of the chat.</p>
+      </div>
+      <form class="signup-form" aria-label="Join the Convoy waitlist">
+        <label for="email">Email address</label>
+        <div class="input-row">
+          <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+          <button type="submit">
+            Join
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+        <p class="form-note" role="status" aria-live="polite">No spam. Just launch updates and first-trip access.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <span>Convoy</span>
+    <span>Group trips, booked together.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
