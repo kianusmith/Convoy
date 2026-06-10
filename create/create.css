@@ -1,0 +1,22 @@
+.create-form {
+  margin-top: 32px;
+}
+
+.create-optional {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.create-date-row,
+.create-split-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+@media (max-width: 560px) {
+  .create-date-row,
+  .create-split-row {
+    grid-template-columns: 1fr;
+  }
+}
